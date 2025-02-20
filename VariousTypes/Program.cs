@@ -18,6 +18,9 @@ namespace VariousTypes
             double doubleVarExample = 5.55;
             decimal decimalVarExample = 8.566M; 
 
+            bool varVerdadeira = true;
+            bool varFalsa = false;
+
             // Printing int's variables
             Console.WriteLine($"{interger}\n{longInterger}\n{shortInterger}\n{oneByteInterger}");
 
@@ -26,6 +29,9 @@ namespace VariousTypes
 
             // Printing real's variables
             Console.WriteLine($"{floatVarExample}\n{doubleVarExample}\n{decimalVarExample}");
+
+            // Printing bool's variables
+            Console.WriteLine($"{varVerdadeira}\n{varFalsa}");
 
 
         }
