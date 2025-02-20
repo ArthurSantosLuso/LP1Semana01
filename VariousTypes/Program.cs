@@ -11,10 +11,13 @@ namespace VariousTypes
             short shortInterger = 50;
             sbyte oneByteInterger = 12;
 
-            Console.WriteLine($"{interger}");
-            Console.WriteLine($"{longInterger}");
-            Console.WriteLine($"{shortInterger}");
-            Console.WriteLine($"{oneByteInterger}");
+            char charUniCode1 = '\u00A9', charUniCode2 = '\u00B1', charUniCode3 = '\u02AC';
+
+            Console.WriteLine($"{interger}\n{longInterger}\n{shortInterger}\n{oneByteInterger}");
+
+            Console.WriteLine($"{charUniCode1}\n{charUniCode2}\n{charUniCode3}");
+
+
         }
     }
 }
