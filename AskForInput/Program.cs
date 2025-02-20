@@ -10,6 +10,9 @@ namespace AskForInput
             // Ask for a interger number
             Console.WriteLine("Insert a interger number: ");
             int valueInserted1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Insert a real number: ");
+            float valueInserted2 = float.Parse(Console.ReadLine());
+
         }
     }
 }
